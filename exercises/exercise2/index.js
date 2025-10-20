@@ -6,4 +6,15 @@
  */
 export default function filterOutNegatives(numbers) {
   // TODO: filter out negative numbers
+
+  const NNN = []; // (NNN stands for "non-negative numbers")
+
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] >= 0){
+    NNN.push(numbers[i]);
+    }
+  }
+
+  return NNN;
+ 
 }
