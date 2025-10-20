@@ -6,4 +6,12 @@
  */
 export default function squareNumbers(numbers) {
   // TODO: square each number in the array
+
+  
+   const SN = []; // "SN" is Square Number.
+   for (let i = 0; i < numbers.length; i++) {
+    const square = numbers[i] * numbers[i];
+    SN.push(square);
+  }
+  return SN;
 }
