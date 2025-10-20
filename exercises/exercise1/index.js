@@ -6,4 +6,15 @@
  */
 export default function sumArray(numbers) {
   // TODO: calculate the sum of numbers in the array
+
+  let total = 0;{
+
+  for (let i = 0; i < numbers.length; i++){
+    total = total + numbers[i];
+  }
+  }
+  
+  return total;
+
 }
+console.log(sumArray([4, 7, 9, 28, 47]));
